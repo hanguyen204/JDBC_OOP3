@@ -32,7 +32,7 @@ public class MainJDBC {
 
 
     private static void deleteRecordFromDatabase(Connection connection) throws SQLException {
-    String query = "delete from products where id = 4 ";
+    String query = "delete from products where id = 4 ";git
     Statement statement = connection.createStatement();
     int row = statement.executeUpdate(query);
     if (row != 0){
